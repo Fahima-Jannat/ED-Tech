@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CDN/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3369d5754.js" crossorigin="anonymous"></script>
     <title>ED Tech</title>
 </head>
 <body>
     <header>
-        <section class="container mb-5">
+        <!-- Navigation bar -->
+      <section class="container mb-5">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                  <!-- <a class="navbar-brand text-bold-700" href="#">Pro Edu</a> -->
                   <h2>Pro Edu</h2>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,7 +60,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Thumbs Up For Digital Learning</h5>
                         <p>Some representative placeholder content for the first slide.</p>
-                        <a href="" class="bg-primary text-white car-button">Get Started</a>
+                        <div class="text-center my-5"><button class="btn btn-primary">Get Started</button></div>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -67,6 +68,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
+                        <div class="text-center my-5"><button class="btn btn-primary">Get Started</button></div>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -74,6 +76,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
+                        <div class="text-center my-5"><button class="btn btn-primary">Get Started</button></div>
                     </div>
                   </div>
                 </div>
@@ -88,44 +91,79 @@
               </div>
         </section>
     </header>
-    <!-- ....main-section.. -->
+    <!-- Main-Section -->
     <main class="container my-4">
-        <section>
-            <div class="my-5"><h1 class="text-center">Discover Our Popular<br> Courses</h2>
+      <!-- courses -->
+        <section class="gx-5 ">
+            <div class="my-5 p-1"><h1 class="text-center">Discover Our Popular<br> Courses</h2>
                 <p class="text-center">This are our running and uo comming courses. Discover this and make your choice</p>
             </div>
-            <div class="container">
-                <div class="row row-cols-2 g-5">
-                  <div class="col d-flex border rounded"><img src="images/course/course-1.png" alt="" srcset=""><div> <h2>Fundamental of UI/UX Design</h2> <p>Some quick text to build on the card title and make up the bulk of the card.</p><span>Price:20$</span></div></div>
-                  <div class="col d-flex border rounded"><img src="images/course/course-2.png" alt="" srcset=""><div> <h2>Java Basic to Advanced</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
-                  <div class="col d-flex border rounded"><img src="images/course/course-3.png" alt="" srcset=""><div> <h2>Fullstack Web Development</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
-                  <div class="col d-flex border rounded"><img src="images/course/course-4.png" alt="" srcset=""><div> <h2>Degital Marketing</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
-                  <div class="col d-flex border rounded"><img src="images/course/course-5.png" alt="" srcset=""><div> <h2>Photography</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
-                  <div class="col d-flex border rounded"><img src="images/course/course-6.png" alt="" srcset=""><div> <h2>3D Animation</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
+            <div class="">
+                <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 g-5">
+                  <div class="col d-flex border rounded">
+                    <div>
+                      <img src="images/course/course-1.png" alt="" srcset="">
+                    </div>
+                    <div class="ms-5"> <h2>Fundamental of UI/UX Design</h2> <p>Some quick text to build on the card title and make up the bulk of the card.</p><span class="text-primary">Price:20$</span></div>
+                  </div>           
+                  <div class="col d-flex border rounded">
+                  <div>
+                    <img src="images/course/course-2.png" alt="" srcset="">
+                  </div>
+                  <div class="ms-5"> <h2>Java Basic to Advanced</h2> <p>Learn java from the basic to the advanced level. To be a good programer java is almost must.</p><span class="text-primary">Price:20$</span></div>
+                </div>
+                  <div class="col d-flex border rounded"><div>
+                    <img src="images/course/course-3.png" alt="" srcset="">
+                  </div><div class="ms-5"> <h2>Fullstack Web Development</h2> <p>We provide fullstack web developing programm to become a fullstack web developer.</p><span class="text-primary">Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><div>
+                    <img src="images/course/course-4.png" alt="" srcset="">
+                  </div><div class="ms-5"> <h2>Degital Marketing</h2> <p>Learn each technique of degital marketing. It is all about getting you up to date of it's technique.</p><span class="text-primary">Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><div>
+                    <img src="images/course/course-5.png" alt="" srcset="">
+                  </div><div class="ms-5"> <h2>Photography</h2> <p>If you like photography, but don't know the basic of photography. Then you can select this course.</p><span>Price:20$</span class="text-primary"></div></div>
+                  <div class="col d-flex border rounded"><div>
+                    <img src="images/course/course-6.png" alt="" srcset="">
+                  </div><div class="ms-5"> <h2>3D Animation</h2> <p>There is a huge market of 3D animation. But quality! every one can't give it. to become a 3D annimation expert, select this course.</p><span class="text-primary">Price:20$</span></div></div>
                 </div>
             </div>
             <div class="text-center my-5"><button class="btn btn-primary">See More Courses</button></div>
         </section>
-        <!-- explore  -->
+        <!-- Explore  -->
         <section class="d-flex align-items-center my-5 bg-light">
           <div>
-            <img src="images/working.png" alt="" srcset="">
+            <img src="images/working.png" alt="Working Man" srcset="">
           </div>
-          <div class="">
-            <h1 class="">Explore The elearning Institute</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vel nihil aliquam dignissimos velit quia tempore labore nostrum totam neque est, similique, obcaecati eveniet iure sunt magnam, error in numquam.</p><br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus cum, quisquam possimus corrupti labore!</p>
-            <button class="btn btn-primary">Read More</button>
+          <div class="container p-5">
+            <h1 class="text-">Explore The elearning Institute</h2>
+            <p>Know abour us. Explore our success. To date over three thunred students take our services. Among them more then one hundred express there review and gave us positive rarings. Now we have a huge expert members.</p><br>
+            <p>Wanna know more. Go join with us by facebook.</p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <h1>3.2k+</h1>
+                  <small>Online Course</small>
+                </div>
+                <div class="col">
+                  <h1>700+</h1>
+                  <small>Expert member</small>
+                </div>
+                <div class="col">
+                  <h1>1.2k+</h1>
+                  <small>Ratting & Review</small>
+                </div>
+              </div>
+            </div>
+            <div class="m-2"><button class="btn btn-primary align-items-center">Read More</button></div>
           </div>
         </section>
         <!-- Join/Reg -->
-        <section class="d-flex align-items-center my-5 bg-primary text-white p-5">
+        <section class="d-flex justify-content-between align-items-center my-5 bg-primary text-white p-5 border rounded">
           <div class="w-50">
             <h1 class="">Ready To Join?</h2>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicil aliquam dignissimos velit quia tempore labore nostrum totam neque est, similique, obcaecati eveniet iure sunt magnam, error in numquam.</p><br>
               <p>Lorem ipsum dolor sig elit. Illum minus cum, quisquam possimus corrupti labore!</p>
           </div>
-          <div class="">            
+          <div class=" text-center w-25">            
             <button type="button" class="btn btn-light px-3">Register Now</button>
           </div>
         </section>
@@ -139,7 +177,6 @@
                     <img src="images/student/student-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Abraham Linkan</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       <span>UUIX Designer</span>
                     </div>
                   </div>
@@ -148,9 +185,8 @@
                   <div class="card">
                     <img src="images/student/student-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Abraham Linkan</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <span>UUIX Designer</span>
+                      <h5 class="card-title">Jannat Nipa</h5>
+                      <small>Web Designer</small>
                     </div>
                   </div>
                 </div>
@@ -158,9 +194,8 @@
                   <div class="card">
                     <img src="images/student/student-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Abraham Linkan</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <span>UUIX Designer</span>
+                      <h5 class="card-title">Sabbir Islam</h5>
+                      <small>Photographer</small>
                     </div>
                   </div>
                 </div>
@@ -168,9 +203,8 @@
                   <div class="card">
                     <img src="images/student/student-4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Abraham Linkan</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <span>UUIX Designer</span>
+                      <h5 class="card-title">Jakulin Farnandes</h5>
+                      <small>Programmer</small>
                     </div>
                   </div>
                 </div>                
@@ -183,65 +217,83 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis suscipit voluptate perferendis eum veniam perspiciatis optio.</p>
 
             <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        What other services are you compatible with?
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>Many More</strong>transition does limit overflow.
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What other services are you compatible with?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Many More</strong>transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              I have a technical i need resolved, who do i email?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>You can mail us.</strong> to info@edtech.com  </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Do you provide offline service?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>No.</strong> We don't provide education service in offline or any other media.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+              Which service should i take first?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>You must take a tour to our website first.</strong>
+            
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        I have a technical i need resolved, who do i email?
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>You can mail us.</strong> to info@edtech.com  </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Do you provide offline service?
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>No.</strong> We don't provide education service in offline or any other media.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-        Which service should i take first?
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>You must take a tour to our website first.</strong>
-      
-      </div>
-    </div>
-  </div>
-</div>
-<!-- company -->
-<h2>
-    Trust Over 200+ Company
-</h2>
-
         </section>
-
+        <!-- Company -->
+        <section class="container my-5">         
+        <h2 class="text-center">
+          Trust Over 800+ Company
+        </h2>
+          <div class="container text-center">
+            <div class="row row-cols-6 p-5">
+              <div class="col"><img src="images/company/company-1.png" alt="" srcset=""></div>
+              <div class="col"><img src="images/company/company-2.png" alt="" srcset=""></div>
+              <div class="col"><img src="images/company/company-3.png" alt="" srcset=""></div>
+              <div class="col"><img src="images/company/company-4.png" alt="" srcset=""></div>
+              <div class="col"><img src="images/company/company-5.png" alt="" srcset=""></div>
+              <div class="col"><img src="images/company/company-6.png" alt="" srcset=""></div>
+            </div>
+          </div>
+        </section>
     </main>
-<footer>
-
+<footer class="bg-dark text-center text-white">
+<h2>Pro Edu</h2>
+<address>Mahmudpur, Fatullah, Narayangonj<br>Bangladesh</address>
+<span>Privecy Policy  Term Of Use</span><br>
+<span class="footer-logo mx-5">
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-linkedin"></i>
+  <i class="fab fa-tiktok"></i>
+</span>
 </footer>
 
     <script src="CDN/bootstrap.min.js"></script>

@@ -10,10 +10,11 @@
 </head>
 <body>
     <header>
-        <section class="">
+        <section class="container mb-5">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <!-- <a class="navbar-brand text-bold-700" href="#">Pro Edu</a> -->
+                  <h2>Pro Edu</h2>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -23,20 +24,29 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Courses</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Deals</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link disabled">Success</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">about</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Register
+                        </a>
                       </li>
                     </ul>
                   </div>
+                  <div><button class="btn btn-white text-primary">Register</button></div>
                 </div>
               </nav>
         </section>
-        <section class="container">
+        <!-- Banner -->
+        <section class="container my-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -78,31 +88,46 @@
               </div>
         </section>
     </header>
-    <main>
+    <!-- ....main-section.. -->
+    <main class="container my-4">
         <section>
-            <div><h2>Discover Our Popular Courses</h2>
-                <p>This are our running and uo comming courses. Discover this and make your choice</p></div>
-            <div class="container text-center">
-                <div class="row row-cols-2">
-                  <div class="col"><img src="images/course/course-1.png" alt="" srcset=""> <h2>Course Name as</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div>
-                  <div class="col"><img src="images/course/course-2.png" alt="" srcset=""> <h2>Course Name as</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div>
-                  <div class="col"><img src="images/course/course-3.png" alt="" srcset=""> <h2>Course Name as</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div>
-                  <div class="col"><img src="images/course/course-4.png" alt="" srcset=""> <h2>Course Name as</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div>
-                  <div class="col"><img src="images/course/course-5.png" alt="" srcset=""> <h2>Course Name as</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div>
-                  <div class="col"><img src="images/course/course-6.png" alt="" srcset=""> <h2>Course Name as</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div>
+            <div class="my-5"><h1 class="text-center">Discover Our Popular<br> Courses</h2>
+                <p class="text-center">This are our running and uo comming courses. Discover this and make your choice</p>
+            </div>
+            <div class="container">
+                <div class="row row-cols-2 g-5">
+                  <div class="col d-flex border rounded"><img src="images/course/course-1.png" alt="" srcset=""><div> <h2>Fundamental of UI/UX Design</h2> <p>Some quick text to build on the card title and make up the bulk of the card.</p><span>Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><img src="images/course/course-2.png" alt="" srcset=""><div> <h2>Java Basic to Advanced</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><img src="images/course/course-3.png" alt="" srcset=""><div> <h2>Fullstack Web Development</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><img src="images/course/course-4.png" alt="" srcset=""><div> <h2>Degital Marketing</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><img src="images/course/course-5.png" alt="" srcset=""><div> <h2>Photography</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
+                  <div class="col d-flex border rounded"><img src="images/course/course-6.png" alt="" srcset=""><div> <h2>3D Animation</h2> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque!</p><span>Price:20$</span></div></div>
                 </div>
-              </div>
+            </div>
+            <div class="text-center my-5"><button class="btn btn-primary">See More Courses</button></div>
         </section>
-        <section>
-            <div>
-                <img src="images/company/company-1.png" alt="" srcset="">
-            </div>
-            <div>
-                <h2>Explore The elearning Institute</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vel nihil aliquam dignissimos velit quia tempore labore nostrum totam neque est, similique, obcaecati eveniet iure sunt magnam, error in numquam.</p><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus cum, quisquam possimus corrupti labore!</p>
-                <button>Read More</button>
-            </div>
+        <!-- explore  -->
+        <section class="d-flex align-items-center my-5 bg-light">
+          <div>
+            <img src="images/working.png" alt="" srcset="">
+          </div>
+          <div class="">
+            <h1 class="">Explore The elearning Institute</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vel nihil aliquam dignissimos velit quia tempore labore nostrum totam neque est, similique, obcaecati eveniet iure sunt magnam, error in numquam.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus cum, quisquam possimus corrupti labore!</p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+        </section>
+        <!-- Join/Reg -->
+        <section class="d-flex align-items-center my-5 bg-primary text-white p-5">
+          <div class="w-50">
+            <h1 class="">Ready To Join?</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicil aliquam dignissimos velit quia tempore labore nostrum totam neque est, similique, obcaecati eveniet iure sunt magnam, error in numquam.</p><br>
+              <p>Lorem ipsum dolor sig elit. Illum minus cum, quisquam possimus corrupti labore!</p>
+          </div>
+          <div class="">            
+            <button type="button" class="btn btn-light px-3">Register Now</button>
+          </div>
         </section>
         <!-- Successfull Students -->
         <section>
@@ -150,59 +175,59 @@
                   </div>
                 </div>                
               </div>
-              <button>View All</button>
+              <div class="text-center my-5"><button class="btn btn-primary">View All</button></div>
         </section>
         <!-- FAQ -->
         <section>
-            <h2>FAQ</h2>
+            <h2>Frequently Asked Question</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis suscipit voluptate perferendis eum veniam perspiciatis optio.</p>
 
             <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
+        What other services are you compatible with?
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>Many More</strong>transition does limit overflow.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+        I have a technical i need resolved, who do i email?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+        <strong>You can mail us.</strong> to info@edtech.com  </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+        Do you provide offline service?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>No.</strong> We don't provide education service in offline or any other media.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingFour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+        Which service should i take first?
       </button>
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>You must take a tour to our website first.</strong>
+      
       </div>
     </div>
   </div>
